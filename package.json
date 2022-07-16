@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "valid-url": "^1.0.9",
+    "validator": "^13.7.0"
+  }
+}

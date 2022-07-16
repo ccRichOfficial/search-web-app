@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Box Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      .search {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .search h4 {
+        margin: 50px 0 20px 0;
+        font-size: 30px;
+      }
+
+      .search input[type="text"] {
+        width: 60%;
+        border-radius: 30px;
+        outline: none;
+        padding-left: 20px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border: solid 1px pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="search">
+      <h4>Search Bar</h4>
+      <input type="text" id="txtSearch" />
+      <input type="button" class="btn" id="btnSearch" value="Search" />
+    </div>
+
+    <!-- <script
+      async
+      src="https://cse.google.com/cse.js?cx=840261730ef902172"
+    ></script>
+    <div
+      class="gcse-searchbox-only"
+      data-resultsUrl="https://www.google.com/search?q="
+    ></div> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
